@@ -1,0 +1,13 @@
+{
+  "host": "https://web2.temp-mail.org",
+  "endpoints": {
+    "get_mx_token": {
+      "method": "POST",
+      "endpoint": "/mailbox"
+    },
+    "get_messages": {
+      "method": "GET",
+      "endpoint": "/messages"
+    }
+  }
+}
